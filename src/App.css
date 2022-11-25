@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Distressed&family=Rubik+Glitch&display=swap');
+
+@layer base{
+    *{
+        @apply m-0 p-0 box-border;
+    }
+
+    html{
+        font-family: 'Roboto', sans-serif;
+    }
+
+    body{
+        @apply w-full h-screen bg-black;
+    }
+
+    li{
+        @apply list-disc italic text-sky-300
+    }
+
+    th{
+        @apply text-sky-500 text-xl py-8;
+        font-family: 'Rubik Glitch', cursive; 
+    }
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@layer components{
+    .header{
+        font-family: 'Rubik Glitch', cursive; 
+    }
+
+    .table-header{
+        font-family: 'Rubik Distressed', cursive;
+    }
+
+    .information{
+        scrollbar-width: thin;
+        scrollbar-gutter: stable;
+        scrollbar-color: rgb(14 165 233) black;
+    }
+
+    .information::-webkit-scrollbar{
+        width: 10px;
+        background-color: black;
+    }
+    .information::-webkit-scrollbar-thumb{
+        background-color: rgb(14 165 233);
+        border-radius: 10px;
+    }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/*     
+font-family: 'Rubik Distressed', cursive;
+font-family: 'Rubik Glitch', cursive; 
+*/
