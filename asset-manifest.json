@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/deathstar_2_info/static/css/main.284690fe.css",
-    "main.js": "/deathstar_2_info/static/js/main.7cc4b6fb.js",
+    "main.js": "/deathstar_2_info/static/js/main.31cbee8f.js",
     "static/media/deathstar.mp4": "/deathstar_2_info/static/media/deathstar.e6fdf9011686a24f0bef.mp4",
     "index.html": "/deathstar_2_info/index.html",
     "main.284690fe.css.map": "/deathstar_2_info/static/css/main.284690fe.css.map",
-    "main.7cc4b6fb.js.map": "/deathstar_2_info/static/js/main.7cc4b6fb.js.map"
+    "main.31cbee8f.js.map": "/deathstar_2_info/static/js/main.31cbee8f.js.map"
   },
   "entrypoints": [
     "static/css/main.284690fe.css",
-    "static/js/main.7cc4b6fb.js"
+    "static/js/main.31cbee8f.js"
   ]
 }
