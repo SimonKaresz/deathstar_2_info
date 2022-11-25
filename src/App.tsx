@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <header className="flex h-[50px] items-center justify-center lg:h-[100px]">
         <h1 className="header select-none text-5xl text-sky-600">
-          Deathstar II
+          Death Star II
         </h1>
       </header>
       <main className="mt-[20px] flex w-full flex-col items-center justify-center lg:mt-[200px] lg:flex-row-reverse">
