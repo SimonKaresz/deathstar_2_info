@@ -23,7 +23,7 @@
 
     th{
         @apply text-sky-500 text-xl py-8;
-        font-family: 'Rubik Glitch', cursive; 
+        font-family: 'Rubik Distressed', cursive; 
     }
 }
 
@@ -33,7 +33,7 @@
     }
 
     .table-header{
-        font-family: 'Rubik Distressed', cursive;
+        font-family: 'Rubik Glitch', cursive;  
     }
 
     .information{
